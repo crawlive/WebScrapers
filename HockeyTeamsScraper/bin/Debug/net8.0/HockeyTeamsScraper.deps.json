@@ -1,0 +1,94 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "HockeyTeamsScraper/1.0.0": {
+        "dependencies": {
+          "CsvHelper": "30.1.0",
+          "HtmlAgilityPack": "1.11.57",
+          "HtmlAgilityPack.CssSelectors": "1.0.2"
+        },
+        "runtime": {
+          "HockeyTeamsScraper.dll": {}
+        }
+      },
+      "CsvHelper/30.1.0": {
+        "dependencies": {
+          "System.Linq.Async": "4.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/CsvHelper.dll": {
+            "assemblyVersion": "30.0.0.0",
+            "fileVersion": "30.1.0.11"
+          }
+        }
+      },
+      "HtmlAgilityPack/1.11.57": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.57.0",
+            "fileVersion": "1.11.57.0"
+          }
+        }
+      },
+      "HtmlAgilityPack.CssSelectors/1.0.2": {
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.57"
+        },
+        "runtime": {
+          "lib/net45/HtmlAgilityPack.CssSelectors.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.Linq.Async/4.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.Linq.Async.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.2"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HockeyTeamsScraper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CsvHelper/30.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R7sRLng2mOBOCtpg9q3B8Wna7qw4CARq9d68t4rBh09obGjEP2OC2RzGojtnIN0LBau15VRMmh1MfYpQwk2Kbw==",
+      "path": "csvhelper/30.1.0",
+      "hashPath": "csvhelper.30.1.0.nupkg.sha512"
+    },
+    "HtmlAgilityPack/1.11.57": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zDxnHcAvi+qhZG602eKaPJKmzm0T8npKVML0RMwjrRBabpmTRtu2OVpfNkMUfYMgQ+5EllOkSeGxu0uFVV2zFw==",
+      "path": "htmlagilitypack/1.11.57",
+      "hashPath": "htmlagilitypack.1.11.57.nupkg.sha512"
+    },
+    "HtmlAgilityPack.CssSelectors/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bB4FeVvcNROENPWQfFSmPQ6q99jGk8ru5QoBB3qnEeaP451fjnqQ0uPuMgmWHAOZIXUAoOQozv/5fEEVSDyIzA==",
+      "path": "htmlagilitypack.cssselectors/1.0.2",
+      "hashPath": "htmlagilitypack.cssselectors.1.0.2.nupkg.sha512"
+    },
+    "System.Linq.Async/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WbiYEedFZeM+psmMyoCt1AKbZppAZg8Eq1ZTQ+521fGNeXqlgJj0tZYV5n1LsKRO5osQuitYxGNuzPTy3213sg==",
+      "path": "system.linq.async/4.0.0",
+      "hashPath": "system.linq.async.4.0.0.nupkg.sha512"
+    }
+  }
+}
